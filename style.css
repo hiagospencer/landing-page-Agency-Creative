@@ -187,7 +187,6 @@ section header .active {
     font-weight: 700;
     font-size: 12px;
     line-height: 15px;
-    /* identical to box height */
 
     text-align: center;
     letter-spacing: 0.01em;
@@ -206,7 +205,6 @@ section header .active {
     font-weight: 700;
     font-size: 24px;
     line-height: 33px;
-    /* identical to box height */
 
     text-align: center;
     letter-spacing: 0.01em;
@@ -940,34 +938,34 @@ footer {
         line-height: 45px;
     }
     .img{
-        width: 330px;
+        width: 300px;
         height: 224px;
+        padding: 0 2%;
     }
     .img img{
-        width: 330px;
-        height: 224px;
+        max-width: 100%;
     }
 
     .great-project{
-        width: 99px;
+        width: 70px;
         height: 50px;
-        left: -50px;
-        top: 50px;
+        left: -32px;
+        top: 20px;
     }
 
     .star img{
-        width: 13px;
-        height: 13px;
+        width: 10px;
+        height: 10px;
     }
 
     .star span{
-        font-size: 6px;
-        line-height: 8px;
+        font-size: 5px;
+        line-height: 7px;
     }
 
     .great-project > span {
-        font-size: 12px;
-        line-height: 16px;
+        font-size: 10px;
+        line-height: 14px;
         margin: 5px auto;
     }
 
@@ -978,8 +976,8 @@ footer {
     .card-comentario{
         width: 80px;
         height: 80px;
-        right: -40px;
-        bottom: -50px;
+        right: -20px;
+        bottom: -10px;
     }
 
     .perfil {
@@ -1009,6 +1007,12 @@ footer {
         padding:0 10px;
     }
 
+
+    .about h1{
+        font-size: 45px;
+        line-height: 65px;
+    }
+
     .info-about{
         flex-direction: column;
         width: 80%;
@@ -1017,7 +1021,7 @@ footer {
 
     .img-about{
         order: 2;
-        width: 390px;
+        width: 300px;
         height: 242px;
         margin: 0 auto;
     }
@@ -1028,6 +1032,7 @@ footer {
 
     .button-about a:nth-of-type(1), .button-about a:nth-of-type(2){
         padding: 10px 35px;
+        font-size: 14px;
     }
 
     .services{
@@ -1040,8 +1045,8 @@ footer {
     }
 
     .info-services h1{
-        font-size: 24px;
-        line-height: 33px;
+        font-size: 20px;
+        line-height: 30px;
     }
 
     .info-services p{
@@ -1056,6 +1061,7 @@ footer {
 
     .icons-service{
         width: 90%;
+        margin: 10px auto;
     }
 
     .portfolio {
@@ -1070,6 +1076,19 @@ footer {
         width: 100%;
         font-size: 16px;
         line-height: 20px;
+    }
+
+    .w350{
+        width: 300px;
+        height: 300px;
+    }
+
+    .project img {
+        max-width: 100%;
+    }
+    .w400{
+        width: 320px;
+        height: 320px;
     }
 
     .grid-projects{
@@ -1134,10 +1153,10 @@ footer {
     }
 
     .img1{
-        width: 221px;
-        height: 196px;
+        width: 200px;
+        height: 170px;
         bottom: -240px;
-        left: 50px;
+        left: 15px;
     }
 
     .img1 img{
@@ -1147,6 +1166,7 @@ footer {
     .img2{
         width: 180px;
         height: 177px;
+        right: -20px;
     }
 
     .img2 img{
@@ -1162,6 +1182,10 @@ footer {
         margin: 0 auto;
 
         align-items: center;
+    }
+
+    .rede-sociais p{
+        font-size: 14px;
     }
 
 }
