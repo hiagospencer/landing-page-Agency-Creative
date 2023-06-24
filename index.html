@@ -16,6 +16,7 @@
 <body>
     <section>
         <header class="container">
+            <a href="#top"><i class="fa-solid fa-arrow-up"></i></a>
             <div class="logo">
                 <a href="#"><img src="img/logo-black.PNG" alt=""></a>
             </div><!--logo-->
@@ -31,13 +32,22 @@
                 <a href="#">Contact us</a>
             </div><!---->
 
+
             <!--   MOBILLE -->
 
-            <div class="icon-mobile">
+            <div class="icon-mobile" id="icon-menu">
                 <i class="fa-solid fa-bars"></i>
             </div><!--icon-mobile-->
+
+            <div class="menu-mobile hidden" id="menu-mobile">
+                <a href="#home" onclick="hiddenMenu()">Home</a>
+                <a href="#about" onclick="hiddenMenu()">About</a>
+                <a href="#service" onclick="hiddenMenu()">Services</a>
+                <a href="#project" onclick="hiddenMenu()">Projects</a>
+            </div><!--menu-mobile-->
         </header>
     </section>
+
     <!-- ==========  fim do header ======== -->
 
     <section class="homepage" id="home">
@@ -301,7 +311,10 @@
             <p>Copyright &copy; 2023 Agency Creative. All Right Reserved</p>
         </div><!--rede-sociais-->
     </footer>
+
+
     <script src="https://kit.fontawesome.com/8f73d23f57.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
